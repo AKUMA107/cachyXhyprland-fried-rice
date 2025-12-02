@@ -1,0 +1,4 @@
+# Ignore specific user configuration files that contain secrets/tokens
+.config/gh/
+.config/gh/
+nvim/lazy/

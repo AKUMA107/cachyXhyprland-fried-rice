@@ -1,0 +1,9 @@
+[Added Associations]
+image/jpeg=qview-2.desktop;qview.desktop;
+video/mp4=firefox.desktop;
+font/otf=kitty.desktop;
+
+[Default Applications]
+image/jpeg=qview-2.desktop;
+video/mp4=firefox.desktop
+font/otf=kitty.desktop

@@ -1,0 +1,121 @@
+@import "colors.css";
+
+
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "Courier New", Courier, "Lucida Console", monospace;
+    font-size: 1.01rem; 
+    min-height: 0;
+}
+
+window#waybar {
+    background: transparent;
+    color: @on_surface;
+}
+
+tooltip {
+  background: @background;
+  border: 1px solid rgba(100, 114, 125, 0.5);
+}
+tooltip label {
+  color: @on_surface;
+}
+
+
+/* All workspaces (inactive) */
+#workspaces button {
+    padding: 1px 16px;                /* pill shape */
+    margin: 0 7px;                     /* spacing between pills */
+    min-height: 0px;
+    background-color: @primary;        /* primary background */
+    color: #121212;                     /* text color */
+    border: 3px solid @on_primary_container;     
+    border-radius: 9px;
+    font-size: 1.2rem;
+    font-weight: 900;
+    transition: background 0.2s;              /* fully rounded */
+    font-size: 1.2rem;
+    font-weight: 900;
+    transition: background 0.2s;       /* smooth hover/focus effect */
+    outline: 2px solid black; 
+    outline-offset: -3px;
+    box-shadow: 0 0 0 3px @primary;
+}
+
+#workspaces button:hover {
+    /* 1. NEW INSIDE COLOR: Change background to the color of the new outer border */
+    background-color: @primary; 
+    
+    /* 2. NEW INNER BORDER COLOR: Change the inner border to the original inside color */
+    border: 4px solid  @primary_container;
+    border-radius: 18px;
+    
+    /* 3. NEW OUTER SHADOW COLOR: Change the outer shadow to the new inside color */
+    box-shadow: 0 0 0 3px @primary; 
+    transition: background 0.2s;
+    transition: border 0.2s;
+    transition: box-shadow 0.2s;
+
+    color: @primary_container;
+    background-image: none;
+}
+
+#workspaces {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 1.2rem;
+
+}
+
+
+#workspaces button.active {
+    background-color: @primary_container;
+    color: @on_primary_container;
+    border: 4px solid @primary_container;
+    box-shadow: 0 0 0 3px @primary_container;
+    padding: 1px 27px;
+    margin: 0 10px;
+    font-weight:900;
+    border-radius:9px;
+
+}
+
+
+
+
+
+
+#workspaces button label {
+    font-size: 1.3rem; 
+}
+
+
+
+
+#clock,
+#battery,
+#network,
+#pulseaudio
+{
+	padding: 5px 14px;
+	margin: 7px;
+	background-color : @primary;
+	color: #121212;
+	border-radius: 99px;
+
+}
+
+
+
+#battery {
+    padding: 10px;
+}
+
+/* Window title styling */
+#window label {
+    font-size: 0.8rem;         /* smaller text */
+    margin-left: 18px;          /* move it away from the network module */
+    color: @on_surface;
+}
+
