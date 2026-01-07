@@ -80,9 +80,10 @@ cp "$WALL" ~/.config/hypr/current_wallpaper
 convert ~/.config/hypr/current_wallpaper[0] ~/.config/hypr/current_wallpaper_static.png
 wait
 
+
 # Generate Matugen theme
 matugen image "$WALL"
-
+.config/hypr/keyb.sh
 # Apply to Kitty
 cp ~/.config/matugen/colors ~/.config/kitty/colors.conf
 kitty @ set-colors ~/.config/kitty/colors.conf

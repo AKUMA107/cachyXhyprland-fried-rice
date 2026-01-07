@@ -1,0 +1,11 @@
+2026/01/06-00:57:20.260 3d4b Creating DB /home/daddyaddy/.config/WhatsApp Desktop/Local Storage/leveldb since it was missing.
+2026/01/06-00:57:20.269 3d4b Reusing MANIFEST /home/daddyaddy/.config/WhatsApp Desktop/Local Storage/leveldb/MANIFEST-000001
+2026/01/06-02:14:24.490 3d4b Level-0 table #5: started
+2026/01/06-02:14:24.498 3d4b Level-0 table #5: 21493 bytes OK
+2026/01/06-02:14:24.499 3d4b Delete type=0 #3
+2026/01/07-14:43:07.165 3d4b Level-0 table #7: started
+2026/01/07-14:43:07.181 3d4b Level-0 table #7: 16212 bytes OK
+2026/01/07-14:43:07.193 3d4b Delete type=0 #4
+2026/01/07-22:08:14.011 3d4b Level-0 table #9: started
+2026/01/07-22:08:14.015 3d4b Level-0 table #9: 13520 bytes OK
+2026/01/07-22:08:14.017 3d4b Delete type=0 #6
