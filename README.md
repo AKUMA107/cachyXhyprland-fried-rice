@@ -7,6 +7,7 @@ happy fried ricing friends , flavour is key
 
 
 you should be left with something like this
+make sure you make all the scripts executeable in the scripts folder and in the hypr folder
 
 https://github.com/user-attachments/assets/42859c7b-5c34-41d0-aebc-7b745d4ff733
 
