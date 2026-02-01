@@ -3,7 +3,7 @@ as promised the rest of the rice is completed and now committed spicetify wlogou
 happy fried ricing friends , flavour is key
 
 ❯ sudo pacman -S yay
-❯ yay -s btop matugen swww nvim nwg-look qView ranger rofi spotify spicetify thunar waybar wlogout hyprlock hyprshot 
+❯ yay -s btop matugen swww nvim nwg-look qView ranger rofi spotify spicetify thunar waybar wlogout hyprlock hyprshot obs-studio lutris wine protonup-qt
 
 
 you should be left with something like this
